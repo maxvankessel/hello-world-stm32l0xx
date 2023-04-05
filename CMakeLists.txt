@@ -16,9 +16,9 @@ set(SOURCES_CMSIS
     ${PROJECT_SOURCE_DIR}/Lib/CMSIS/Device/ST/STM32L0xx/Source/Templates/gcc/startup_stm32l010xb.s
 )
 
-#To add specific HAL drivers active the following include
+# To add specific HAL drivers active the following include
 set(SOURCES_HAL_STM32
-#    ${PROJECT_SOURCE_DIR}/Lib/STM32L0xx_HAL_Driver/
+    ${PROJECT_SOURCE_DIR}/Lib/STM32L0xx_HAL_Driver/Src/stm32l0xx_ll_utils.c
 )
 
 # Add the executable
